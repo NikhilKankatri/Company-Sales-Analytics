@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+openpyxl
+psycopg2-binary
+pytest
+jupyter

@@ -1,0 +1,9 @@
+Order_ID,Customer,Product,Quantity,Price,Sales,Sales_Category
+O1001,Rahul,Laptop,2.0,50000,100000.0,High Value
+O1002,Priya,Mouse,5.0,800,4000.0,Low Value
+O1003,Arjun,Keyboard,3.0,1500,4500.0,Low Value
+O1004,Sneha,Laptop,1.0,50000,50000.0,High Value
+O1005,Kiran,Monitor,2.0,12000,24000.0,Medium Value
+O1008,Meena,Keyboard,4.0,1500,6000.0,Low Value
+O1009,Varun,Monitor,1.0,12000,12000.0,Medium Value
+O1010,Neha,Laptop,1.0,50000,50000.0,High Value

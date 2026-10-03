@@ -1,0 +1,11 @@
+Order_ID,Customer,Product,Quantity,Price
+O1001,Rahul,Laptop,2,50000
+O1002,Priya,Mouse,5,800
+O1003,Arjun,Keyboard,3,1500
+O1004,Sneha,Laptop,1,50000
+O1005,Kiran,Monitor,2,12000
+O1006,Anil,Phone,two,25000
+O1007,Ravi,Mouse,-5,800
+O1008,Meena,Keyboard,4,1500
+O1009,Varun,Monitor,1,12000
+O1010,Neha,Laptop,1,50000
