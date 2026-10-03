@@ -127,11 +127,15 @@ sales_analysis
 
 Create the required `company_sales` table using the SQL provided in the project.
 
-Update the PostgreSQL connection details in:
+Set your PostgreSQL password as an environment variable:
 
-```text
-src/database.py
+**Windows CMD:**
+
+```cmd
+set POSTGRES_PASSWORD=YOUR_POSTGRES_PASSWORD
 ```
+
+The password is not stored in the source code or GitHub repository.
 
 ### 3. Run the analytics pipeline
 
@@ -147,68 +151,7 @@ The pipeline generates:
 * Text report
 * Excel report
 
-## Outputs
-
-### Excel Report
-
-The automated Excel report contains:
-
-* KPI Summary
-* Sales Data
-* Product Analysis
-* Customer Analysis
-
-### Visualizations
-
-The project generates charts for:
-
-* Sales by Product
-* Sales by Customer
-* Sales by Category
-* Sales Distribution
-* Quantity vs Sales
-* Sales Outlier Detection
-* Product Sales Contribution
-
-## Testing
-
-Run:
-
-```bash
-pytest
-```
-
-The test suite verifies important data transformation logic such as sales calculations.
-
-## Business Insights
-
-Based on the current sample dataset:
-
-* Laptops generate the largest share of sales.
-* Rahul is the highest-sales customer.
-* Total sales are ₹250,500 across 8 orders.
-* The average order value is ₹31,312.50.
-* The dataset contains intentionally invalid records that are removed during the cleaning stage.
-
-## Learning Outcomes
-
-This project demonstrates practical experience with:
-
-* Python programming
-* File handling
-* Data cleaning
-* Data validation
-* Pandas
-* NumPy
-* Data visualization
-* Exploratory data analysis
-* SQL
-* PostgreSQL
-* Excel automation
-* Testing
-* Modular programming
-* Basic ETL workflow
-* Business analytics
+---
 
 ## Author
 
@@ -216,3 +159,5 @@ This project demonstrates practical experience with:
 
 B.E. Computer Science & Engineering
 IoT, Cybersecurity and Blockchain
+Alva's Institute of Engineering & Technology
+
